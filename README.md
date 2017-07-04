@@ -1,7 +1,7 @@
 # Java-Unrolled-List
 Java implementation of Unrolled List: https://en.wikipedia.org/wiki/Unrolled_linked_list    
 Usage:    
-UnrolledList x = new UnrolledList(int max)// max - the size of the underlying array
+UnrolledList x = new UnrolledList(int max)// max - the size of the underlying array.    
 Methods:
 x.size()// return length;    
 x.isEmpty() // is empty?;    
