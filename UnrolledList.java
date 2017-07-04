@@ -3,7 +3,8 @@ package com.unrolledlist;
 
 
 /**
- * Created by lion137 on 29/06/17.
+ * Copyleft by lion137.logspot.ie
+
  */
 public class UnrolledList<E> {
 
@@ -198,7 +199,6 @@ public class UnrolledList<E> {
                 E temp = (E) first.in_array[max - 1];
                 first = first.next;
                 length--;
-                //first.numCnt = 0;
                 return temp;
             }
             else {
