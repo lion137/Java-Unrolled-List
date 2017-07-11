@@ -14,10 +14,12 @@ public class UnrolledList<E> {
     private int max;
 
 
-    public UnrolledList (int maxElements) {
+    public UnrolledList (int maxElements) {//maxElements must  be greater than 1
+        if (maxElements < 2){
+            throw new ValueException("Unrolled List: max elements must be greater than 1");
+        }
         max = maxElements;
     }
-
      private class Node {
         byte side;
         int numCnt = 0;
